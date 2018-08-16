@@ -128,10 +128,8 @@ class Pixelcopter(PyGameWrapper):
     ----------
     width : int
         Screen width.
-
     height : int
         Screen height, recommended to be same dimension as width.
-
     """
 
     def __init__(self, width=48, height=48):
@@ -160,10 +158,8 @@ class Pixelcopter(PyGameWrapper):
     def getGameState(self):
         """
         Gets a non-visual state representation of the game.
-
         Returns
         -------
-
         dict
             * player y position.
             * player velocity.
@@ -172,9 +168,7 @@ class Pixelcopter(PyGameWrapper):
             * next block x distance to player.
             * next blocks top y location,
             * next blocks bottom y location.
-
             See code for structure.
-
         """
 
         min_dist = 999

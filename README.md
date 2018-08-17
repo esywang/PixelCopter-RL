@@ -2,7 +2,7 @@
 
 Reinforcement learning agent that learns to play PixelCopter using Q-learning with neural network function approximations. 
 
-
+![gif](https://github.com/eddieshengyuwang/Heli-Reinforcement-Learning/blob/master/heli.gif)
 
 Developed this project to learn the basics of RL, Q-learning with NNs, and using Keras (Theano backend). As for running simulations, I used the [Python Learning Environment](https://pygame-learning-environment.readthedocs.io/en/latest/), which has a number of pre-built games in Python (like Flappy Bird, Pong, PixelCopter, etc). This way, I didn't have to build the game but instead focus more on designing the agent, which is awesome!
 
